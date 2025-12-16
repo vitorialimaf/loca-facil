@@ -29,10 +29,5 @@ O sistema foi projetado para pequenas locadoras de filmes que necessitam de um c
 ##  Estrutura do Repositório
 /           
 ├── README.md        
-├── src/             
-│   ├── database/    
-│   ├── models/      
-│   ├── services/    
-│   └── app.py       
-├── docs/            
-└── exemplos/   
+├── src/                
+│   └── app.py         
