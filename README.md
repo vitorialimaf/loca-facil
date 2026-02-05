@@ -7,27 +7,35 @@ Alunas: Julia Ferreira e Vitoria Ferreira
 O LocaFácil é um sistema simples voltado para pequenas lojas de locação de filmes.  
 Seu propósito é permitir que os funcionários gerenciem o catálogo de filmes, o cadastro de clientes e o processo de locação.
 
-## Funcionalidade Principal
-A funcionalidade principal do sistema é:
+## Público-alvo
 
-## Gerenciamento de Locações
-O sistema permite registrar rapidamente a locação de um filme por um cliente, verificando:
-- Disponibilidade do filme
-- Data de retirada
-- Data prevista de devolução
-- Histórico de locações
+Pequenas locadoras de filmes que necessitam de um sistema básico para:
+- controle de filmes disponíveis;
+- gerenciamento de clientes;
+- registro de locações e devoluções.
 
-Essa funcionalidade gera valor ao permitir uma operação rápida e organizada, reduzindo erros e agilizando o atendimento.
+## Funcionalidades do Sistema
 
-## Cliente Alvo
-O sistema foi projetado para pequenas locadoras de filmes que necessitam de um controle simples e eficiente sem depender de softwares comerciais caros ou complexos.
+### Gerenciamento de Filmes
+- Cadastrar filmes no banco de dados
+- Listar todos os filmes cadastrados
+- Buscar filmes por título ou gênero
+- Listar apenas filmes disponíveis
+- Atualizar disponibilidade de filmes
+- Remover filmes do catálogo
+
+### Gerenciamento de Clientes
+- Cadastrar clientes
+- Armazenar informações básicas (nome, e-mail e telefone)
+
+### Controle de Locações
+- Registrar locação de filmes
+- Associar cliente e filme à locação
+- Atualizar status da locação (ativa ou finalizada)
+- Registrar devolução de filmes
+- Atualizar automaticamente a disponibilidade do filme após devolução
 
 ## Tecnologias previstas
 - Banco de Dados NoSQL (MongoDB)
 - Python
 
-##  Estrutura do Repositório
-/           
-├── README.md        
-├── src/                
-│   └── app.py         
